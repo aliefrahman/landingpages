@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>satulayanan.com | Official Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- ...existing code... -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Header dan Navigasi -->
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#home">
+            <img
+              src="./img/logo_satulayanan.svg"
+              alt="Programmer's Life Logo"
+            />
+          </a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html?#home">Beranda</a></li>
+          <li id="service"><a href="index.html?#features">Layanan</a></li>
+          <li><a href="index.html?#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Bagian Utama -->
+
+    <!-- Add before footer section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Nama Lengkap"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              placeholder="Subjek"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Pesan"
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <footer id="contact" class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Tentang Kami</h3>
+          <p>
+            Spesialis pemasangan kabel jaringan, fiber optik dan jaringan
+            wireless di seluruh wilayah kota Makassar dan sekitarnya
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Kontak</h3>
+
+          <ul class="contact-info">
+            <li><i class="fas fa-envelope"></i> satulayananmks@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +62 852-1669-7771</li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Kota Makassar, Indonesia
+            </li>
+            <li>
+              <a href="contact.html" class="detail-btn"> Send Email</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Ikuti Kami</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="current-year"></span> PT. Satu Layanan Mandiri. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Link ke file JavaScript -->
+    <!-- Add before closing body tag -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
