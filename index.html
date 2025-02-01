@@ -1,142 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>satulayanan.com | Official Website</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- ...existing code... -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- Header dan Navigasi -->
-    <header>
-      <nav>
-        <div class="logo">
-          <a href="#home">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>satulayanan.com | Official Website</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- ...existing code... -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Header dan Navigasi -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#home">
           <img src="./img/logo_satulayanan.svg" alt="Programmer's Life Logo" />
         </a>
+      </div>
+      <div class="menu-toggle" id="mobile-menu">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="menu-toggle" id="mobile-menu">
-          <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li id="service"><a href="#features">Layanan</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Bagian Utama -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Selamat Datang di Satu Layanan Mandiri</h1>
+      <p>
+        Jelajahi bagaimana kami membantu Anda membangun jaringan yang andal dan efisien.
+      </p>
+      <button id="learn-more">Pelajari Lebih Lanjut</button>
+    </div>
+  </section>
+
+  <!-- Bagian Fitur -->
+  <section id="features" class="features-section">
+    <h2 class="section-title">Layanan kami</h2>
+    <div class="features-container">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-code"></i>
         </div>
-        <ul class="nav-links">
-          <li><a href="#home">Beranda</a></li>
-          <li id="service"><a href="#features">Layanan</a></li>
-          <li><a href="#contact">Kontak</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Bagian Utama -->
-    <section id="home" class="hero-section">
-      <div class="hero-content">
-        <h1>Selamat Datang di Satu Layanan Mandiri</h1>
+        <h3>Pemasangan Kabel Jaringan</h3>
         <p>
-          Jelajahi bagaimana kami membantu Anda membangun jaringan yang andal dan efisien.
+          Bertanggung jawab untuk merancang dan menginstal kabel jaringan
+          seperti kabel Ethernet yang menghubungkan komputer, server, dan
+          perangkat jaringan lainnya.
+          <br /><button class="detail-btn" data-modal="feature1">
+            Lihat Detail
+          </button>
         </p>
-        <button id="learn-more">Pelajari Lebih Lanjut</button>
       </div>
-    </section>
-
-    <!-- Bagian Fitur -->
-    <section id="features" class="features-section">
-      <h2 class="section-title">Layanan kami</h2>
-      <div class="features-container">
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <h3>Pemasangan Kabel Jaringan</h3>
-          <p>
-            Bertanggung jawab untuk merancang dan menginstal kabel jaringan
-            seperti kabel Ethernet yang menghubungkan komputer, server, dan
-            perangkat jaringan lainnya.
-            <br /><button class="detail-btn" data-modal="feature1">
-              Lihat Detail
-            </button>
-          </p>
-        </div>
-        <!-- Modal -->
-        <div id="feature1" class="modal">
-          <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <div class="modal-body">
-              <h3>Perencanaan Jalur Kabel</h3>
-              <p>
-                Menentukan rute terbaik untuk kabel untuk menghindari
-                interferensi dan memastikan efisiensi.
-              </p>
-              <h3>Instalasi Fisik</h3>
-              <p>
-                Menarik kabel melalui dinding, langit-langit, atau lantai dengan
-                alat khusus.
-              </p>
-              <h3>Pengujian Koneksi</h3>
-              <p>
-                Menggunakan alat pengukur untuk memastikan koneksi kuat dan
-                bebas dari kesalahan.
-              </p>
-            </div>
+      <!-- Modal -->
+      <div id="feature1" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div class="modal-body">
+            <h3>Perencanaan Jalur Kabel</h3>
+            <p>
+              Menentukan rute terbaik untuk kabel untuk menghindari
+              interferensi dan memastikan efisiensi.
+            </p>
+            <h3>Instalasi Fisik</h3>
+            <p>
+              Menarik kabel melalui dinding, langit-langit, atau lantai dengan
+              alat khusus.
+            </p>
+            <h3>Pengujian Koneksi</h3>
+            <p>
+              Menggunakan alat pengukur untuk memastikan koneksi kuat dan
+              bebas dari kesalahan.
+            </p>
           </div>
         </div>
-
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-users"></i>
-          </div>
-          <h3>Pemasangan Serat Optik (Fiber Optic)</h3>
-          <p>
-            Bertanggung jawab untuk merancang dan menginstal jaringan serat
-            optik yang menghubungkan berbagai perangkat dengan kecepatan tinggi
-            dan latensi rendah.
-            <br /><button class="detail-btn" data-modal="feature2">
-              Lihat Detail
-            </button>
-          </p>
-        </div>
-        <!-- Modal -->
-        <div id="feature2" class="modal">
-          <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <div class="modal-body">
-              <h3>Splicing dan Termination</h3>
-              <p>
-                Menggabungkan kabel fiber optik dengan presisi tinggi untuk
-                memastikan tidak ada kehilangan sinyal.
-              </p>
-              <h3>Pengujian Kualitas Sinyal</h3>
-              <p>
-                Menggunakan OTDR (Optical Time-Domain Reflectometer) untuk
-                mengidentifikasi masalah dalam kabel.
-              </p>
-              <h3>Pemeliharaan</h3>
-              <p>
-                Memeriksa dan memperbaiki kabel yang rusak atau mengalami
-                degradasi performa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-book-reader"></i>
-          </div>
-          <h3>Jaringan Wireless</h3>
-          <p>Untuk jaringan tanpa kabel, dengan mengatur sistem yang memungkinkan komunikasi melalui gelombang radio. 
-            <br /><button class="detail-btn" data-modal="feature3">
-              Lihat Detail
-            </button></p>
       </div>
-       <!-- Modal -->
-       <div id="feature3" class="modal">
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3>Pemasangan Serat Optik (Fiber Optic)</h3>
+        <p>
+          Bertanggung jawab untuk merancang dan menginstal jaringan serat
+          optik yang menghubungkan berbagai perangkat dengan kecepatan tinggi
+          dan latensi rendah.
+          <br /><button class="detail-btn" data-modal="feature2">
+            Lihat Detail
+          </button>
+        </p>
+      </div>
+      <!-- Modal -->
+      <div id="feature2" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div class="modal-body">
+            <h3>Splicing dan Termination</h3>
+            <p>
+              Menggabungkan kabel fiber optik dengan presisi tinggi untuk
+              memastikan tidak ada kehilangan sinyal.
+            </p>
+            <h3>Pengujian Kualitas Sinyal</h3>
+            <p>
+              Menggunakan OTDR (Optical Time-Domain Reflectometer) untuk
+              mengidentifikasi masalah dalam kabel.
+            </p>
+            <h3>Pemeliharaan</h3>
+            <p>
+              Memeriksa dan memperbaiki kabel yang rusak atau mengalami
+              degradasi performa.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-book-reader"></i>
+        </div>
+        <h3>Jaringan Wireless</h3>
+        <p>Untuk jaringan tanpa kabel, dengan mengatur sistem yang memungkinkan komunikasi melalui gelombang radio.
+          <br /><button class="detail-btn" data-modal="feature3">
+            Lihat Detail
+          </button>
+        </p>
+      </div>
+      <!-- Modal -->
+      <div id="feature3" class="modal">
         <div class="modal-content">
           <span class="close-modal">&times;</span>
           <div class="modal-body">
@@ -162,7 +162,7 @@
         </div>
         <h3>Instalasi & Konfigurasi</h3>
         <p>
-            Bertanggung jawab untuk melakukan instalasi dan konfigurasi perangkat seperti router, switch, dan server.
+          Bertanggung jawab untuk melakukan instalasi dan konfigurasi perangkat seperti router, switch, dan server.
           <br /><button class="detail-btn" data-modal="feature4">
             Lihat Detail
           </button>
@@ -195,9 +195,7 @@
         </div>
         <h3>Konsultasi & Lainnya</h3>
         <p>
-          Bertanggung jawab untuk merancang dan menginstal kabel jaringan
-          seperti kabel Ethernet yang menghubungkan komputer, server, dan
-          perangkat jaringan lainnya.
+          kami melayani konsultasi pemecahan masalah jaringan dan yang berkaitan dengan teknologi informasi.
           <br /><button class="detail-btn" data-modal="feature5">
             Lihat Detail
           </button>
@@ -224,49 +222,50 @@
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
-    <!-- Bagian Kontak -->
-    <footer id="contact" class="footer">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Tentang Kami</h3>
-          <p>
-            Spesialis pemasangan kabel jaringan, fiber optik dan jaringan
-            wireless di seluruh wilayah kota Makassar dan sekitarnya
-          </p>
-        </div>
-
-        <div class="footer-section">
-          <h3>Kontak</h3>
-          <ul class="contact-info">
-            <li><i class="fas fa-envelope"></i> satulayananmks@gmail.com</li>
-            <li><i class="fas fa-phone"></i> +62 852-1669-7771</li>
-            <li>
-              <i class="fas fa-map-marker-alt"></i> Kota Makassar, Indonesia
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h3>Ikuti Kami</h3>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
+  <!-- Bagian Kontak -->
+  <footer id="contact" class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Tentang Kami</h3>
         <p>
-          &copy; <span id="current-year"></span> PT. Satu Layanan Mandiri. All
-          rights reserved.
+          Spesialis pemasangan kabel jaringan, fiber optik dan jaringan
+          wireless di seluruh wilayah kota Makassar dan sekitarnya
         </p>
       </div>
-    </footer>
-    <!-- Link ke file JavaScript -->
-    <script src="js/script.js"></script>
-  </body>
+
+      <div class="footer-section">
+        <h3>Kontak</h3>
+        <ul class="contact-info">
+          <li><i class="fas fa-envelope"></i> satulayananmks@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +62 852-1669-7771</li>
+          <li>
+            <i class="fas fa-map-marker-alt"></i> Kota Makassar, Indonesia
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Ikuti Kami</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        &copy; <span id="current-year"></span> PT. Satu Layanan Mandiri. All
+        rights reserved.
+      </p>
+    </div>
+  </footer>
+  <!-- Link ke file JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
